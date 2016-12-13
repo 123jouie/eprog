@@ -5,7 +5,6 @@ int main(){
 	int a;
 	int b;
 	int c;
-	int d;
 	
 	printf("enter value of a:\n");
 	scanf("%d", &a);
