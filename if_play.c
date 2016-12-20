@@ -1,19 +1,18 @@
 #include<stdio.h>
 
 int main(){
-	int grade;
+	int number;
 	
-	printf("Enter grade: ");
-	scanf("&d", &grade);
-	if(grade%3==0){
+	printf("Enter number:");
+	scanf("&d", &number);
+	if(number %3==0){
 		printf("Ed");
 	}else{
-		printf("\n");
-		
+		printf("Not divisible");
 	}
-	if(grade%5==0){
+	if(number %5==0){
 		printf("Pogi");
 	}else{
-		printf("\n");
+		printf("Not Divisible");
 	}
 }
