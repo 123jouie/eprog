@@ -6,6 +6,7 @@ int main (){
 		
 		for(i=1; i<=100; i++){
 			if(i%2==1){
-			printf("%d\n", i);}
+				printf("%d\n", i);
+				}
 		}
 }
