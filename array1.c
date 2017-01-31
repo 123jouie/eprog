@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-	int i, grades[3] , sum=0;
+	int i, grades[3] , sum=0, average;
 	for(i=0;i<3; i++){
 		printf("Enter grades %d: ");
 		scanf("%d", &grades[i]);
